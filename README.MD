@@ -22,14 +22,22 @@ Tested in Ubuntu 16.04 LTS + Intel i7 CPU + Nvidia Titan X (Pascal) with Cuda (>
 4. Uncomment lines 8, 20, 87, 109, 272, 300 and comment 88, 110, 273 in "demo_parallel.py" to enhance it with graph reduction and local search. "demo.py" can be modified accordingly to include these components.
 5. Rerun "demo_parallel.py" to see the difference.
 
+### Training
+Run "train.py" to start training. Note that the training data is not provided and should be downloaded or synthesized from other sources, e.g.,
+
+SATLIB (https://www.cs.ubc.ca/~hoos/SATLIB/benchm.html)
+
+RB Model (https://github.com/notbad/RB)
+
+The data file should contain an adjacency matrix and at least one groundtruth label, and saved in a MATLAB file with "adj" and "indset_label" symbols. The default data path is defined as data_path = "./data/CBS_Graph".
+
 ## Citation
 If you use our code for research, please cite our paper:
 
 Zhuwen Li, Qifeng Chen and Vladlen Koltun. Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Search. In NIPS 2018.
 
 ## Todo List
-1. Add the training code
-2. Implement graph reduction and local search, and release them under MIT License
+1. Implement graph reduction and local search, and release them under MIT License
 
 ## Question
 If you have any question or request about the code and data, please email me at lzhuwen@gmail.com.
