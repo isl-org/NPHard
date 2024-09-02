@@ -1,3 +1,9 @@
+# DISCONTINUATION OF PROJECT #  
+This project will no longer be maintained by Intel.  
+Intel has ceased development and contributions including, but not limited to, maintenance, bug fixes, new releases, or updates, to this project.  
+Intel no longer accepts patches to this project.  
+ If you have an ongoing need to use this project, are interested in independently developing it, or would like to maintain patches for the open source software community, please create your own fork of this project.  
+  
 # Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Search
 
 This is a tensorflow implementation of solving the maximum indepedent set problem using graph convolutional networks and guided tree search. The graph convolutional networks implementation is based on [GCN](https://github.com/tkipf/gcn) (MIT License).
